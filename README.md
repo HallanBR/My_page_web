@@ -21,3 +21,7 @@
 ### <div align="center" > Segue abaixo o direcionamento </div>
 
 <div align="center" > <a href="https://hallanbr.github.io/My_page_web/"> Front-End project </a> </div>
+
+<div align="right">Created by <a href="https://github.com/"> HBR </a>.</div>
+
+
