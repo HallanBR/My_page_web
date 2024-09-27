@@ -31,15 +31,6 @@
                return false;
           });
         });
-      /* Loader Code End */
-
-
-      // var height = $('.mh-service-item').height();
-      // if($(window).width()){
-      //   $('.mh-service-item').css('height', height);   
-      //   $('.mh-service-item').css('height', height);   
-      // }
-  
 
       $(window).on('load', function() {
         $('#header-slider #animation-slide').owlCarousel({
@@ -67,11 +58,7 @@
          });
      });
    
-    /*
-    |====================
-    | Mobile NAv trigger
-    |=====================
-    */
+
     
     var trigger = $('.navbar-toggler'),
       overlay     = $('.overlay'),
@@ -81,8 +68,7 @@
 
       $('.navbar-toggler, .navbar-nav li a, .overlay').on('click', function () {
           $('.navbar-toggler').toggleClass('active')
-        //   $('#js-navbar-menu').toggleClass('active');
-        //   $('.navbar-collapse').toggleClass('show');
+
           overlay.toggleClass('active');
           navc.toggleClass('active');
       });  
